@@ -1,0 +1,16 @@
+class EndPoints:
+    BaseUrl = "https://7facbdb5-b28c-46e1-a70f-a00b44f62626.mock.io"
+
+    get_sw_versions = "/api/v1.0/swupdate/sw-versions"
+    get_hw_versions = "/api/v1.0/swupdate/hw-revision"
+    get_rht = "/api/v1.0/device/relative_humidity_temperature"
+    get_boot_status_value = "/api/v1.0/swupdate/boot-status"
+    get_system_time = "/api/v1.0/system/clock/value"
+    post_imx_register = "/api/v1.0/g2_5mp_camera/set_imx490_register"
+    get_imx_register = "/api/v1.0/g2_5mp_camera/read_imx490_register/0x7663"
+    get_reboot_reason = "/api/v1.0/system/reboot_reason"
+    post_trigger_pulse_time = "/api/v1.0/g2_5mg_camera/set_trigger_pulse_time"
+    post_trigger_pulse_interval = "/api/v1.0/g2_5mg_camera/set_trigger_pulse_interval"
+    post_enable_trigger_value_pulse = "/api/v1.0/g2_5mg_camera/enable_trigger_pulse"
+    get_trigger_pulse_stats = "/api/v1.0/g2_5mg_camera/read_trigger_pulse_stats"
+    get_stress_NG_status = "/api/v1.0/hardware_test/stressng/status"
