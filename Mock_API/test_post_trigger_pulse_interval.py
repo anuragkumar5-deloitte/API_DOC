@@ -16,6 +16,6 @@ def test_post_trigger_pulse_interval():
 
     responses.add(resp)
 
-    req = requests.post(EndPoints.BaseUrl+EndPoints.post_trigger_pulse_interval)
+    req = requests.post(EndPoints.BaseUrl+EndPoints.post_trigger_pulse_interval,)
     print(req.text)
 
